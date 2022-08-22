@@ -1,9 +1,3 @@
-/**
- * Template Name: Yummy - v1.1.0
- * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 document.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
@@ -182,9 +176,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /**
-     * Gallery Slider
+     * Sosial Media Slider
      */
-    new Swiper('.gallery-slider', {
+    new Swiper('.sosmed-slider', {
         speed: 400,
         loop: true,
         centeredSlides: true,
@@ -195,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 'auto',
         breakpoints: {
             320: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 20
             },
             640: {
@@ -222,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerView: 'auto',
     breakpoints: {
       320: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 40
       },
       480: {
