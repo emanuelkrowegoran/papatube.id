@@ -256,11 +256,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 spaceBetween: 40
             },
             480: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 60
             },
             640: {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 80
             },
             992: {
